@@ -1,9 +1,109 @@
+/* --- ESTILOS GERAIS --- */
+/* variaveis */
 :root {
-  --background: #212529;
-  --background-2: #495764;
-  --main-color: #45a29e;
+  --main-bg-color: #212529;
+  --main-bg-color2: #495764;
+  --main-disguise-color: #45a29e;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
 }
 
 body {
-  background-color: var(--background);
+  background-color: var(--main-bg-color);
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* tipografia */
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: normal;
+  line-height: 1.5em;
+  margin-top: 0px;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 1em;
+  margin: 0 auto;
+  max-width: 510px;
+}
+
+/* botoes e sombras */
+.btn {
+  background-color: var(--main-disguise-color);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 64px;
+  margin-top: 32px;
+  padding: 0.5em 1.5em 0.7em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 10em;
+}
+
+.btn:hover {
+  background-color: var(--main-bg-color2);
+  filter: drop-shadow(0px 0px 0px #495764);
+}
+
+.sombra-clara-3 {
+  filter: drop-shadow(0px 8px 16px #495764);
+}
+
+.sombra-clara-4 {
+  filter: drop-shadow(0px 16px 24px #495764);
+}
+/* --- FIM DOS ESTILOS GERAIS --- */
+
+.logo-disguise {
+  margin-left: 180px;
+  margin-top: 64px;
+}
+
+.welcome {
+  /* background-color: blue; */
+  margin-left: 180px;
+  margin-top: 64px;
+  /* Flex properties */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome img {
+  display: block;
+  margin-right: 180px;
+  max-width: 100%;
+}
+
+.welcome .title {
+  /* background-color: bisque; */
+  display: flex;
+  flex-direction: column;
+}
+
+/* SEXTION 1 - BENEFICIOS */
+.beneficios {
+  background-color: var(--main-bg-color2);
+  margin: 128px 0px 128px 0px;
+  padding: 128px 0px 128px 0px;
+  text-align: center;
 }

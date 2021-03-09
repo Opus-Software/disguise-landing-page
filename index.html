@@ -5,19 +5,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
   <title>Disguise Landing Page</title>
 </head>
 
 <body>
-  <div><img src="/img/logo-disguise.svg" alt="Logo Disguise"></div>
-  <h1>Conheça o Disguise</h1>
-  <h2>Uma UI para o Mountebank Server</h2>
-  <button>Utilize agora</button>
-  <img src="/img/mockup-newImpostor.png" alt="New Impostor">
+  <img class="logo-disguise" src="/img/logo-disguise.svg" alt="Logo Disguise">
+  <div class="welcome">
+    <div class="title">
+      <h1>Conheça o Disguise</h1>
+      <h2>Uma UI para o Mountebank Server</h2>
+      <a class="btn sombra-clara-3" href="https://opus-software.github.io/disguise/imposters">Utilize agora</a>
+    </div>
 
-  <!-- Beneficios -->
-  <section>
+    <img class="sombra-clara-4" src="/img/mockup-newImpostor.png" alt="New Impostor">
+  </div>
+
+  <!-- Section 1 - Beneficios -->
+  <section class="beneficios">
     <h2>Teste sua aplicação com o Disguise</h2>
     <h3>Facilite o uso de stubs e mocks fornecidos pelo Mountebank Server.</h3>
     <div>
@@ -35,7 +41,78 @@
       </div>
     </div>
   </section>
-  <!-- Beneficios -->
+  <!-- Beneficios - end -->
+
+  <!-- Section 2 - Funcionalidades -->
+  <section>
+    <h2>Funcionalidades</h2>
+    <ul>
+      <li>
+        <h3>Crie impostores</h3>
+        <p>Configure os stubs e tudo que é necessário para utilizar o Mountebank.</p>
+      </li>
+      <li>
+        <h3>Visualize logs</h3>
+        <p>Acesse todas as mensagens retornadas pelo servidor.</p>
+      </li>
+      <li>
+        <h3>Importação e exportação de arquivos</h3>
+        <p>Faça upload e download de arquivos de configuração JSON.</p>
+      </li>
+    </ul>
+    <img src="img/mockup-newImpostor.png" alt="">
+  </section>
+  <!-- Funcionalidades - end -->
+
+  <!-- Section 3 - CTA -->
+  <h2>Conheça o Disguise</h2>
+  <p>A maneira mais fácil de utilizar os recursos fornecidos pelo Mountebank Server.</p>
+  <a href="https://opus-software.github.io/disguise/imposters">Utilize agora</a>
+  <!-- CTA - end -->
+
+  <!-- Section 4 - Get Started -->
+  <h2>Como usar o Disguise</h2>
+  <h3>Para utilizar o Desguise, instale o Mountebank Server seguindo os passos abaixo:</h3>
+  <div>
+    <span>
+      <h4>1</h4>
+      <p>Node.js</p>
+      <p>Instale o Node.js Version 12. Para acessar a página de download clique aqui.</p>
+    </span>
+    <span>
+      <h4>2</h4>
+      <p>Mountebank</p>
+      <p>Instale o Mountebank. Para acessar a documentação clique aqui.</p>
+    </span>
+    <span>
+      <h4>3</h4>
+      <p>Impostores</p>
+      <p>Gerencie seus impostores.Com o Mountebank Server em execução, crie e administre impostores e stubs.</p>
+    </span>
+    <span>
+      <h4>4</h4>
+      <p>Logs</p>
+      <p>Visualize os logs.Acesse com facilidade os logs gerados pelo Mountebank Server.</p>
+    </span>
+  </div>
+  <a href="https://opus-software.github.io/disguise/imposters">Utilize agora</a>
+  <!-- Section 4 - end -->
+
+  <!-- Section 5 - GitHub -->
+  <h2>Seja um colaborador</h2>
+  <p>O Disguise é Open Source! Faça parte desse projeto e nos ajude a desenvolver novas funcionalidades:</p>
+  <a href="https://github.com/Opus-Software/disguise">GitHub</a>
+  <!-- Section 5 - end -->
+
+  <!-- footer -->
+  <footer>
+    <p>Disguise é um projeto desenvolvido por:</p>
+    <img src="img/logo-opus.svg" alt="Logo Opus Software">
+    <p>Siga-nos</p>
+    <a href=""><img src="img/icons-linkedin.svg" alt="LinkedIn"></a>
+    <a href=""><img src="img/icons-facebook.svg" alt="Facebook"></a>
+    <a href=""><img src="img/icons-twitter.svg" alt="Twitter"></a>
+  </footer>
 
 </body>
 
