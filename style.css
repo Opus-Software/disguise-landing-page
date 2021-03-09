@@ -54,13 +54,13 @@ p {
   background-color: var(--main-disguise-color);
   border-radius: 8px;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.125em;
   margin-bottom: 64px;
   margin-top: 32px;
   padding: 0.5em 1.5em 0.7em 1.5em;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: lowercase;
   width: 10em;
 }
 
@@ -76,6 +76,11 @@ p {
 .sombra-clara-4 {
   filter: drop-shadow(0px 16px 24px #495764);
 }
+
+.sombra-escura-3 {
+  filter: drop-shadow(0px 8px 16px #212529);
+}
+
 /* --- FIM DOS ESTILOS GERAIS --- */
 
 .logo-disguise {
@@ -166,4 +171,20 @@ p {
 .funcionalidades .titulo-funcionalidade > img {
   /*icon check*/
   margin-right: 32px;
+}
+
+/* --- SECTION 3 - CTA --- */
+.secao-cta {
+  background-color: var(--main-bg-color2);
+  padding: 64px 0px;
+  text-align: center;
+}
+
+.secao-cta h3 {
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.secao-cta p {
+  margin-bottom: 32px;
 }
