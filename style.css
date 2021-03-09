@@ -132,5 +132,38 @@ p {
 
 /* --- SECTION 2 - FUNCIONALIDADES --- */
 .funcionalidades {
+  margin-bottom: 128px;
+  margin-left: 180px;
+}
+
+.funcionalidades h2 {
   text-align: center;
+}
+
+.funcionalidades div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.funcionalidades div img {
+  /*mockup img*/
+  margin-right: 180px;
+  max-width: 100%;
+}
+
+.funcionalidades div ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.funcionalidades .titulo-funcionalidade {
+  display: flex;
+  font-size: 1.125em;
+  font-weight: bold;
+}
+
+.funcionalidades .titulo-funcionalidade > img {
+  /*icon check*/
+  margin-right: 32px;
 }
