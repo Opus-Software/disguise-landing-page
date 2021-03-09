@@ -44,6 +44,11 @@ h3 {
   max-width: 510px;
 }
 
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
 /* botoes e sombras */
 .btn {
   background-color: var(--main-disguise-color);
@@ -100,10 +105,32 @@ h3 {
   flex-direction: column;
 }
 
-/* SEXTION 1 - BENEFICIOS */
+/* SECTION 1 - BENEFICIOS */
 .beneficios {
   background-color: var(--main-bg-color2);
   margin: 128px 0px 128px 0px;
   padding: 128px 0px 128px 0px;
+  text-align: center;
+}
+
+.beneficios-lista {
+  /* background-color: blue; */
+  margin-left: 260px;
+  margin-right: 260px;
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.beneficios-item {
+  /* background-color: burlywood; */
+  margin-left: 32px;
+  margin-right: 32px;
+  flex-basis: 30%;
+}
+
+/* --- SECTION 2 - FUNCIONALIDADES --- */
+.funcionalidades {
   text-align: center;
 }
