@@ -22,6 +22,11 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.container {
+  margin-left: 11.25em;
+  margin-right: 11.25em;
+}
+
 /* tipografia */
 h1 {
   font-size: 2.5em;
@@ -33,15 +38,28 @@ h2 {
   font-size: 2em;
   font-weight: normal;
   line-height: 1.5em;
-  margin-top: 0px;
+  margin-top: 0em;
+  text-align: center;
 }
 
 h3 {
   font-size: 1.5em;
   font-weight: normal;
-  line-height: 1em;
+  line-height: 1.3em;
   margin: 0 auto;
-  max-width: 510px;
+  max-width: 31.875em;
+  text-align: center;
+}
+
+h4 {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+h5 {
+  font-size: 1.125em;
+  line-height: 1.875em;
 }
 
 p {
@@ -52,46 +70,64 @@ p {
 /* botoes e sombras */
 .btn {
   background-color: var(--main-disguise-color);
-  border-radius: 8px;
+  border-radius: 0.5em;
   color: #fff;
   font-size: 1.125em;
-  margin-bottom: 64px;
-  margin-top: 32px;
-  padding: 0.5em 1.5em 0.7em 1.5em;
+  margin-bottom: 4em;
+  margin-top: 2em;
+  padding: 0.6em 1.5em 0.6em 1.5em;
   text-align: center;
   text-decoration: none;
-  text-transform: lowercase;
+  text-transform: uppercase;
+  width: 10em;
+}
+
+.btn-2 {
+  background-color: var(--main-disguise-color);
+  border-radius: 0.5em;
+  color: #fff;
+  font-size: 1.125em;
+  margin-bottom: 4em;
+  margin-top: 2em;
+  padding: 0.6em 1.5em 0.6em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
   width: 10em;
 }
 
 .btn:hover {
   background-color: var(--main-bg-color2);
-  filter: drop-shadow(0px 0px 0px #495764);
+  filter: drop-shadow(0em 0.125em 0.25em #495764);
+}
+
+.btn-2:hover {
+  background-color: var(--main-bg-color);
+  filter: drop-shadow(0em 0.125em 0.25em #495764);
 }
 
 .sombra-clara-3 {
-  filter: drop-shadow(0px 8px 16px #495764);
+  filter: drop-shadow(0em 0.5em 1em #495764);
 }
 
 .sombra-clara-4 {
-  filter: drop-shadow(0px 16px 24px #495764);
+  filter: drop-shadow(0em 1em 1.5em #495764);
 }
 
 .sombra-escura-3 {
-  filter: drop-shadow(0px 8px 16px #212529);
+  filter: drop-shadow(0em 0.5em 1em #212529);
 }
 
 /* --- FIM DOS ESTILOS GERAIS --- */
 
 .logo-disguise {
-  margin-left: 180px;
-  margin-top: 64px;
+  margin-left: 10%;
+  margin-top: 4em;
 }
 
 .welcome {
-  /* background-color: blue; */
-  margin-left: 180px;
-  margin-top: 64px;
+  margin-left: 10%;
+  margin-top: 4em;
   /* Flex properties */
   display: flex;
   justify-content: space-between;
@@ -100,8 +136,8 @@ p {
 
 .welcome img {
   display: block;
-  margin-right: 180px;
-  max-width: 100%;
+  margin-right: 5%;
+  max-width: 50%;
 }
 
 .welcome .title {
@@ -110,39 +146,43 @@ p {
   flex-direction: column;
 }
 
-/* SECTION 1 - BENEFICIOS */
+.welcome .title h2 {
+  text-align: left;
+}
+
+/* --- SECTION 1 - BENEFICIOS --- */
 .beneficios {
   background-color: var(--main-bg-color2);
-  margin: 128px 0px 128px 0px;
-  padding: 128px 0px 128px 0px;
+  margin: 8em 0em 8em 0em;
+  padding: 8em 0em 8em 0em;
   text-align: center;
 }
 
 .beneficios-lista {
   /* background-color: blue; */
-  margin-left: 260px;
-  margin-right: 260px;
-  margin-top: 64px;
+  margin-left: 16.25em;
+  margin-right: 16.25em;
+  margin-top: 4em;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: flex-end;
 }
 
 .beneficios-item {
   /* background-color: burlywood; */
-  margin-left: 32px;
-  margin-right: 32px;
+  margin-left: 2em;
+  margin-right: 2em;
   flex-basis: 30%;
 }
 
 /* --- SECTION 2 - FUNCIONALIDADES --- */
 .funcionalidades {
-  margin-bottom: 128px;
-  margin-left: 180px;
+  margin-bottom: 8em;
+  margin-left: 11.25em;
 }
 
 .funcionalidades h2 {
-  text-align: center;
+  text-align: left;
 }
 
 .funcionalidades div {
@@ -153,13 +193,13 @@ p {
 
 .funcionalidades div img {
   /*mockup img*/
-  margin-right: 180px;
-  max-width: 100%;
+  margin-right: 11.25em;
+  max-width: 50%;
 }
 
 .funcionalidades div ul {
   list-style-type: none;
-  padding: 0px;
+  padding: 0em;
 }
 
 .funcionalidades .titulo-funcionalidade {
@@ -170,21 +210,211 @@ p {
 
 .funcionalidades .titulo-funcionalidade > img {
   /*icon check*/
-  margin-right: 32px;
+  margin-right: 2em;
 }
 
 /* --- SECTION 3 - CTA --- */
 .secao-cta {
   background-color: var(--main-bg-color2);
-  padding: 64px 0px;
+  margin-bottom: 8em;
+  padding: 4em 0em;
   text-align: center;
 }
 
 .secao-cta h3 {
   font-weight: bold;
-  margin-bottom: 32px;
+  margin-bottom: 2em;
 }
 
 .secao-cta p {
-  margin-bottom: 32px;
+  margin-bottom: 2em;
+}
+
+/* --- SECTION 4 - COMO USAR --- */
+.como-usar {
+  margin-left: 11.25em;
+  margin-right: 11.25em;
+}
+
+.como-usar .tutorial {
+  /*flex parent*/
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.como-usar .botao {
+  margin-bottom: 4em;
+  margin-top: 4em;
+  text-align: center;
+}
+
+.como-usar .tutorial span {
+  /*flex-items*/
+  flex-basis: 20%;
+}
+
+/* --- SECTION 5 - GITHUB --- */
+.github {
+  text-align: center;
+}
+
+.github::before {
+  background-color: #fff;
+  content: "";
+  display: block;
+  height: 0.0625em;
+  margin: 0em auto 2em auto;
+  width: 4em;
+}
+
+.github-titulo {
+  /* background-color: bisque; */
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 2em;
+}
+
+.github-titulo h2 {
+  line-height: 0em;
+  /* margin-left: 1em; */
+  /* margin-top: 4em; */
+}
+
+.github-titulo img {
+  margin-right: 1em;
+}
+
+/* .github-titulo h2::before {
+  background-color: #fff;
+  content: "";
+  display: block;
+  height: 0.0625em;
+  margin: 0em auto 2em auto;
+  width: 4em;
+} */
+
+.github p {
+  margin: 0em auto 2em auto;
+  max-width: 36.625em;
+}
+
+/* --- FOOTER --- */
+footer {
+  background-color: var(--main-bg-color2);
+  padding: 2em 0em;
+  margin-top: 4em;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-creditos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-creditos p {
+  margin-right: 1em;
+}
+
+.footer-redes {
+  text-align: center;
+}
+
+.links-redes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links-redes a {
+  margin: 0em 0.5em;
+}
+
+/* --- MOBILE --- */
+/* -- TABLET --- */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  /* tipografia */
+  h1 {
+    font-size: 2.25em;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  /* botoes e sombras */
+  .btn {
+    margin: 0 auto;
+    width: 8em;
+  }
+
+  .logo-disguise {
+    margin-left: 1.875em;
+    margin-top: 2em;
+  }
+
+  .welcome {
+    margin: 0 1.875em;
+    /*flex*/
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .welcome img {
+    margin: 1.875em 0;
+    max-width: 80%;
+  }
+
+  .welcome .title h2 {
+    text-align: center;
+  }
+}
+
+/* -- SMARTPHONE --- */
+@media only screen and (max-width: 479px) {
+  /* tipografia */
+  h1 {
+    font-size: 1.875em;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  /* botoes e sombras */
+  .btn {
+    font-size: 0.8em;
+    margin: 0 auto;
+    width: 8em;
+  }
+
+  .logo-disguise {
+    margin-left: 1.25em;
+    margin-top: 2em;
+  }
+
+  .welcome {
+    margin: 0 1.25em;
+    /*flex*/
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .welcome .title h2 {
+    text-align: center;
+  }
+
+  .welcome img {
+    margin: 1.875em 0;
+    max-width: 80%;
+  }
 }
