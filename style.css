@@ -327,6 +327,8 @@ footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  margin-right: 1em;
 }
 
 .footer-creditos p {
@@ -460,6 +462,55 @@ footer .container {
     margin-bottom: 1em;
   }
 
+  /* --- SECTION 4 - COMO USAR --- */
+  .como-usar {
+    margin-left: 1.875em;
+    margin-right: 1.875em;
+  }
+
+  .como-usar h2 {
+    font-size: 2em;
+  }
+
+  .como-usar .tutorial {
+    /*flex parent*/
+    flex-wrap: wrap;
+  }
+
+  .como-usar .tutorial span {
+    /*flex-items*/
+    flex-basis: 45%;
+  }
+
+  .como-usar .tutorial span h4 {
+    font-size: 2.25em;
+    margin-bottom: 0em;
+  }
+
+  .como-usar .tutorial span h5 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+  }
+
+  /* --- FOOTER --- */
+  .container {
+    margin-left: 1.875em;
+    margin-right: 1.875em;
+  }
+
+  .footer-creditos {
+    margin-right: 1em;
+  }
+
+  .footer-creditos p {
+    margin-right: 0.5em;
+  }
+
+  .footer-creditos a img {
+    max-width: 80%;
+  }
+
 }
 
 /* -- SMARTPHONE --- */
@@ -523,7 +574,6 @@ footer .container {
     padding: 4em 0em 4em 0em;
   }
   .beneficios-lista {
-    background-color: blue;
     flex-wrap: wrap;
     margin-top: 2em;
   }
@@ -546,7 +596,7 @@ footer .container {
   .funcionalidades div .img-funcionalidades {
     /*mockup img*/
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 80%;
   }
 
   .funcionalidades .titulo-funcionalidade > img {
@@ -573,5 +623,44 @@ footer .container {
     margin-top: 0em;
   }
   
+  /* --- SECTION 4 - COMO USAR --- */
+  .como-usar {
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+  }
+
+  .como-usar .tutorial {
+    flex-direction: column;
+  }
+  
+  .como-usar .tutorial h4 {
+    font-size: 2.25em;
+    margin-bottom: 0em;
+  }
+
+  .como-usar .tutorial h5 {
+    font-size: 1.5em;
+    margin-bottom: 0em;
+  }
+
+  /* --- FOOTER --- */
+  .container {
+    margin-left: 1.875em;
+    margin-right: 1.875em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-creditos {
+    margin-right: 1em;
+  }
+
+  .footer-creditos p {
+    margin-right: 0.5em;
+  }
+
+  .footer-creditos a img {
+    max-width: 100%;
+  }
 
 }
