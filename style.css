@@ -183,6 +183,7 @@ p {
 }
 
 .funcionalidades h2 {
+  font-weight: bold;
   text-align: left;
 }
 
@@ -192,7 +193,11 @@ p {
   justify-content: space-between;
 }
 
-.funcionalidades div img {
+.funcionalidades li {
+  margin-bottom: 1.25em;
+}
+
+.funcionalidades div .img-funcionalidades {
   /*mockup img*/
   margin-right: 5%;
   max-width: 50%;
@@ -211,7 +216,11 @@ p {
 
 .funcionalidades .titulo-funcionalidade > img {
   /*icon check*/
-  margin-right: 2em;
+  margin-right: 1em;
+}
+
+.funcionalidades li > p {
+  margin-top: 0em;
 }
 
 /* --- SECTION 3 - CTA --- */
@@ -360,7 +369,7 @@ footer .container {
   }
 
   p {
-    font-size: 0.8em;
+    font-size: 0.875em;
   }
 
   /* botoes e sombras */
@@ -391,6 +400,11 @@ footer .container {
   }
 
   /* --- SECTION 1 - BENEFICIOS --- */
+  .beneficios {
+    margin: 4em 0em 4em 0em;
+    padding: 4em 0em 4em 0em;
+  }
+
   .beneficios-lista {
     /* background-color: blue; */
     margin-left: 1.875em;
@@ -405,6 +419,32 @@ footer .container {
   .beneficios-item img {
     max-width: 70%;
   }
+
+  /* --- SECTION 2 - FUNCIONALIDADES --- */
+  .funcionalidades {
+    margin-bottom: 4em;
+    margin-left: 1.875em;
+  }
+
+  .funcionalidades div {
+    flex-wrap: wrap;
+  }
+
+  .funcionalidades div .img-funcionalidades {
+    /*mockup img*/
+    margin: 0 auto 0 0.9375em;
+    max-width: 90%;
+  }
+
+  .funcionalidades .titulo-funcionalidade > img {
+    /*icon check*/
+    margin-right: 0.5em;
+  }
+  
+  .funcionalidades .titulo-funcionalidade > p {
+    font-size: 1.125em;
+  }
+
 }
 
 /* -- SMARTPHONE --- */
@@ -471,4 +511,31 @@ footer .container {
     margin-top: 2em;
     flex-basis: 100%;
   }
+
+  /* --- SECTION 2 - FUNCIONALIDADES --- */
+  .funcionalidades {
+    margin-bottom: 4em;
+    margin-left: 1.25em;
+  }
+
+  .funcionalidades div {
+    flex-wrap: wrap;
+  }
+
+  .funcionalidades div .img-funcionalidades {
+    /*mockup img*/
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .funcionalidades .titulo-funcionalidade > img {
+    /*icon check*/
+    margin-right: 0.5em;
+    max-width: 8%;
+  }
+  
+  .funcionalidades .titulo-funcionalidade > p {
+    font-size: 1.125em;
+  }
+
 }
