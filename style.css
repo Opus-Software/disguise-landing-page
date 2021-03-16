@@ -378,6 +378,11 @@ footer .container {
     width: 8em;
   }
 
+  .btn-2 {
+    margin: 0 auto;
+    width: 8em;
+  }
+
   .logo-disguise {
     margin-left: 1.875em;
     margin-top: 2em;
@@ -445,6 +450,16 @@ footer .container {
     font-size: 1.125em;
   }
 
+  /* --- SECTION 3 - CTA --- */
+  .secao-cta {
+    margin-bottom: 4em;
+    padding: 4em 0em;    
+  }
+
+  .secao-cta h3 {
+    margin-bottom: 1em;
+  }
+
 }
 
 /* -- SMARTPHONE --- */
@@ -470,6 +485,12 @@ footer .container {
 
   /* botoes e sombras */
   .btn {
+    font-size: 0.8em;
+    margin: 0 auto;
+    width: 8em;
+  }
+
+  .btn-2 {
     font-size: 0.8em;
     margin: 0 auto;
     width: 8em;
@@ -537,5 +558,20 @@ footer .container {
   .funcionalidades .titulo-funcionalidade > p {
     font-size: 1.125em;
   }
+
+  /* --- SECTION 3 - CTA --- */
+  .secao-cta { 
+    margin-bottom: 4em;
+    padding: 2em 0em;
+  }
+
+  .secao-cta h3 {
+    margin-bottom: 1em;
+  }
+
+  .secao-cta p {
+    margin-top: 0em;
+  }
+  
 
 }
