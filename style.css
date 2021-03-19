@@ -99,11 +99,13 @@ p {
 .btn:hover {
   background-color: var(--main-bg-color2);
   filter: drop-shadow(0em 0.125em 0.25em #495764);
+  transition: background 1.2s;
 }
 
 .btn-2:hover {
   background-color: var(--main-bg-color);
   filter: drop-shadow(0em 0.125em 0.25em #495764);
+  transition: background 1.2s;
 }
 
 .sombra-clara-3 {
