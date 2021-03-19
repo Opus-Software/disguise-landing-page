@@ -447,7 +447,7 @@ footer .container {
     /*icon check*/
     margin-right: 0.5em;
   }
-  
+
   .funcionalidades .titulo-funcionalidade > p {
     font-size: 1.125em;
   }
@@ -455,7 +455,7 @@ footer .container {
   /* --- SECTION 3 - CTA --- */
   .secao-cta {
     margin-bottom: 4em;
-    padding: 4em 0em;    
+    padding: 4em 0em;
   }
 
   .secao-cta h3 {
@@ -510,7 +510,6 @@ footer .container {
   .footer-creditos a img {
     max-width: 80%;
   }
-
 }
 
 /* -- SMARTPHONE --- */
@@ -604,13 +603,13 @@ footer .container {
     margin-right: 0.5em;
     max-width: 8%;
   }
-  
+
   .funcionalidades .titulo-funcionalidade > p {
     font-size: 1.125em;
   }
 
   /* --- SECTION 3 - CTA --- */
-  .secao-cta { 
+  .secao-cta {
     margin-bottom: 4em;
     padding: 2em 0em;
   }
@@ -622,7 +621,7 @@ footer .container {
   .secao-cta p {
     margin-top: 0em;
   }
-  
+
   /* --- SECTION 4 - COMO USAR --- */
   .como-usar {
     margin-left: 1.25em;
@@ -632,7 +631,7 @@ footer .container {
   .como-usar .tutorial {
     flex-direction: column;
   }
-  
+
   .como-usar .tutorial h4 {
     font-size: 2.25em;
     margin-bottom: 0em;
@@ -662,5 +661,15 @@ footer .container {
   .footer-creditos a img {
     max-width: 100%;
   }
+}
 
+[data-anime] {
+  opacity: 0;
+  transform: translate3d(0, -20px, 0);
+}
+
+.anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
 }
