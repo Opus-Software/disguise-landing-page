@@ -249,10 +249,21 @@ p {
 }
 
 .como-usar .tutorial {
+  padding-bottom: 20px;
+  padding-top: 20px;
   /*flex parent*/
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+}
+
+.como-usar .tutorial h4 {
+  font-size: 2em;
+}
+
+.como-usar .tutorial a {
+  color: #fff;
+  text-decoration: underline;
 }
 
 .como-usar .botao {
@@ -269,6 +280,8 @@ p {
 /* --- SECTION 5 - GITHUB --- */
 .github {
   text-align: center;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 .github::before {
