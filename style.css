@@ -250,11 +250,11 @@ p {
 
 .como-usar .tutorial {
   padding-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 80px;
   /*flex parent*/
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: stretch;
 }
 
 .como-usar .tutorial h4 {
@@ -274,6 +274,10 @@ p {
 
 .como-usar .tutorial span {
   /*flex-items*/
+  background-color: var(--main-bg-color2);
+  border-radius: 8px;
+  /* height: 300px; */
+  padding: 0px 40px 30px 40px;
   flex-basis: 20%;
 }
 
@@ -495,6 +499,7 @@ footer .container {
   .como-usar .tutorial span {
     /*flex-items*/
     flex-basis: 45%;
+    margin-bottom: 2em;
   }
 
   .como-usar .tutorial span h4 {
@@ -645,6 +650,10 @@ footer .container {
 
   .como-usar .tutorial {
     flex-direction: column;
+  }
+
+  .como-usar .tutorial span:not(:last-child) {
+    margin-bottom: 2em;
   }
 
   .como-usar .tutorial h4 {
