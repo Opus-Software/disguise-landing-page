@@ -1,0 +1,20 @@
+Disguise - Landing Page
+
+Body:
+div-welcome
+  h1: Welcome to Disguise
+  h2: a UI for the mountebank server
+  a: get started
+
+section-beneficios:
+  h2: Test faster with Disguise / Test your application with Disguise
+  h3: The easiest way to use stubs and mocks provided by Mountebank Server.
+  div-beneficios-lista
+    h4: Friendly interface
+    p: Feito para tornar o uso do Mountebank Server mais simples para desenvolvedores.  
+
+    h4: Quick setup
+    p: Download and upload files for testing setup.
+
+    h4: Centralização de informações
+    p: Encontre as principais funcionalidades para os testes em um único lugar.

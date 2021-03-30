@@ -136,7 +136,7 @@ p {
   align-items: center;
 }
 
-.welcome img {
+.welcome video {
   display: block;
   margin-right: 5%;
   max-width: 50%;
@@ -416,7 +416,7 @@ footer .container {
     justify-content: center;
   }
 
-  .welcome img {
+  .welcome video {
     margin: 1.875em 0;
     max-width: 80%;
   }
@@ -582,7 +582,7 @@ footer .container {
     text-align: center;
   }
 
-  .welcome img {
+  .welcome video {
     margin: 1.875em 0;
     max-width: 80%;
   }
