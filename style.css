@@ -327,6 +327,8 @@ p {
 .github p {
   margin: 0em auto 2em auto;
   max-width: 36.625em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
 }
 
 /* --- FOOTER --- */
@@ -666,7 +668,16 @@ footer .container {
     margin-bottom: 0em;
   }
 
+  .como-usar .botao {
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+
   /* --- FOOTER --- */
+  footer {
+    margin-top: 2em;
+  }
+
   .container {
     margin-left: 1.875em;
     margin-right: 1.875em;
